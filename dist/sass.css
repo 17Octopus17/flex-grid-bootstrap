@@ -1,0 +1,14 @@
+* {
+  background-color: #6560a7; }
+
+.container {
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  margin-top: 130px; }
+
+.title {
+  font-size: 40px; }
+
+a {
+  color: #e22828; }

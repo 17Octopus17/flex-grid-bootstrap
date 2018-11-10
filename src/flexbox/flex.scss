@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  height: 550px;
+  width: 800px;
+ 
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  &__logo {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+  }
+  &__menu {
+    background-color: red;
+    height: 100px;
+  }
+}
+
+.second {
+  display: flex;
+  justify-content: flex-start;
+  &__news {
+    justify-self: flex-start;
+    background-color: brown; 
+    height: 300px;
+    width: 100px;
+  }
+  &__list {
+    background-color: yellow;
+    width: 65%;
+    height: 300px;
+  }
+  &__nav {
+    background-color: rgb(150, 133, 133);
+    flex-direction: column;
+    width: 35%;
+    height: 450px;
+ }
+}
+.footer {
+    background-color: yellow;
+    height: 150px;
+    width: 100%;
+}

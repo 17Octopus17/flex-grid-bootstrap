@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: 100px 65% 35%;
+  grid-template-rows: 100px 300px 150px;
+  max-width: 600px;
+  text-align: center;
+  margin: auto; }
+
+.logo {
+  background-color: yellow;
+  grid-column: 1;
+  grid-row: 1;
+  border: 1px black solid; }
+
+.menu {
+  background-color: red;
+  grid-column: 2 / span 2;
+  grid-row: 1;
+  border: 1px black solid; }
+
+.news {
+  background-color: brown;
+  grid-column: 1;
+  grid-row: 2/3;
+  border: 1px black solid; }
+
+.list {
+  background-color: yellow;
+  grid-column: 2;
+  grid-row: 2/3;
+  border: 1px black solid; }
+
+.nav {
+  background-color: #b8b1b1;
+  grid-column: 3;
+  grid-row: 2/ span 2;
+  border: 1px black solid; }
+
+.footer {
+  background-color: yellow;
+  grid-column: 1 / span 2;
+  border: 1px black solid; }
