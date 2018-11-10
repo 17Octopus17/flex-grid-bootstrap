@@ -1,7 +1,5 @@
 * {
   margin: 0;
-  height: 550px;
-  width: 800px;
  
 }
 
@@ -16,14 +14,16 @@
   &__menu {
     background-color: red;
     height: 100px;
+    width: 100%;
   }
 }
 
 .second {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
   &__news {
-    justify-self: flex-start;
     background-color: brown; 
     height: 300px;
     width: 100px;
@@ -35,13 +35,14 @@
   }
   &__nav {
     background-color: rgb(150, 133, 133);
-    flex-direction: column;
     width: 35%;
     height: 450px;
  }
 }
-.footer {
-    background-color: yellow;
+ .footer {
+    display: flex;
+    flex: 1;
+    align-content: flex-start;
+    background-color: yellow; 
     height: 150px;
-    width: 100%;
-}
+  }
